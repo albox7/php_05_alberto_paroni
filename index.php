@@ -8,7 +8,7 @@ $numeri = [
 ];
 
 $index = 0;
-
+$somma_numeri_pari = 0;
 
 foreach ($numeri as $numero) {
 	
@@ -21,9 +21,9 @@ foreach ($numeri as $numero) {
 
 $media = $somma_numeri_pari / $index;
 
-echo "Somma dei soli numeri pari = " . $somma_numeri_pari . "<br>";
-echo "Totale delle cifre pari = " . $index . "<br>";
-echo "Calcolo della media = " . $somma_numeri_pari . " / " . $index . "<br>";
+echo "Somma dei soli numeri pari = " . $somma_numeri_pari . "\n";
+echo "Totale delle cifre pari = " . $index . "\n";
+echo "Calcolo della media = " . $somma_numeri_pari . " / " . $index . "\n";
 echo "Media dei soli numeri pari = " . $media;
 
 
